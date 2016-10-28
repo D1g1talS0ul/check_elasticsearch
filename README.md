@@ -9,7 +9,8 @@ Usage:
 
 This will output the standard Nagios format:
 
-    OK - elasticsearch (elasticsearch) is running. status: green; timed_out: false; number_of_nodes: 1; number_of_data_nodes: 1; active_primary_shards: 2; active_shards: 2; relocating_shards: 0; initializing_shards: 0; unassigned_shards: 0  | 'active_primary'=2 'active'=2 'relocating'=0 'init'=0
+    OK - elasticsearch (cluster) is running. status: green; timed_out: false; number_of_nodes: 3; number_of_data_nodes: 2; active_primary_shards: 241; active_shards: 482 100.0; relocating_shards: 0; initializing_shards: 0; unassigned_shards: 0 0; delayed_unassigned_shards: 0; number_of_pending_tasks: 0; number_of_in_flight_fetch: 0; task_max_waiting_in_queue_millis: 0; active_shards_percent_as_number: 100.0  | 'active_primary'=241 'active'=482 100.0 'relocating'=0 'init'=0 'unass'=0
+
 
 `OK` / `WARNING` / `CRITICAL` correspond to the status being "green", "yellow", or "red" respectively.
 
